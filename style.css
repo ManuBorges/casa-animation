@@ -1,0 +1,403 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+section {
+	background:#87CEFA;
+	position: relative;
+	height:100vh;
+}
+.casa {
+	background: #F0E68C;
+	height: 320px;
+	width:350px;
+	top: 200px;
+	left: 100px;
+	position: absolute;
+}
+.teto {
+	width: 0px;
+	border-left: 175px solid transparent;
+	border-right: 175px solid transparent;
+	border-bottom: 175px solid #145267;	
+	position: relative;
+	left: 100px;
+	top: 25px;
+}
+.porta {
+	width: 95px;
+	height:140px;
+	background: #8B4513;
+	position: absolute;
+	top: 180px;
+	left: 200px;
+}
+.fechadura {
+	width: 10px;
+	height: 10px;
+	border-radius: 50%;
+	background: black;
+	position: absolute;
+	top: 250px;
+	left: 210px;
+}
+.janela {
+	width: 90px;
+	height: 60px;
+	background: yellow;
+	position: absolute;
+	top: 240px;
+	left: 145px;
+	border-radius: 50%;
+}
+
+.madeira1 {
+	background: #8B4513;
+	width: 90px;
+	height: 3.5px;
+	position: absolute;
+	top: 28px;
+}
+.madeira2{
+	background: #8B4513;
+	width: 3.5px;
+	height: 60px;
+	position: absolute;
+	left: 42px;
+}
+.janela2 {
+	width: 90px;
+	height: 60px;
+	background: yellow;
+	position: absolute;
+	top: 350px;
+	left: 145px;
+	border-radius: 50%;
+}
+.madeira3 {
+	background: #8B4513;
+	width: 90px;
+	height: 3.5px;
+	position: absolute;
+	top: 28px;
+}
+.madeira4{
+	background: #8B4513;
+	width: 3.5px;
+	height: 60px;
+	position: absolute;
+	left: 42px;
+}
+.arvore {
+	background: #8B4513;
+	width: 65px;
+	height: 320px;
+	position: absolute;
+	top: 350px;
+	left: 680px;
+}
+.folha {	
+	background: #2E8B57;
+	width: 200px;
+	height: 150px;
+	border-radius: 50%;
+	position: absolute;
+	top:-50px;
+	left: -70px;
+}
+
+.fruta1{
+	background: red;
+	width: 15px;
+	height: 15px;
+	border-radius: 50%;
+	position:absolute;
+	top: 40px;
+	left: 65px;
+}
+.fruta2{
+	background: red;
+	width: 15px;
+	height: 15px;
+	border-radius: 50%;
+	position:absolute;
+	top: 30px;
+	left: -25px;
+}
+.fruta3{
+	background: red;
+	width: 15px;
+	height: 15px;
+	border-radius: 50%;
+	position:absolute;
+	top: -5px;
+	left: 20px;
+}
+.cerca {
+	background: white;
+	width: 500px;
+	height: 3.5px;
+	position: absolute;
+	top: 556px;
+}
+.cerca1 {
+	background: white;
+	width: 3.5px;
+	height: 60px;
+	position: absolute;
+	top: -21px;
+}
+.cerca2 {
+	background: white;
+	width: 3.5px;
+	height: 60px;
+	position: absolute;
+	top: -21px;
+	left: 50px;
+}
+.cerca3 {
+	background: white;
+	width: 3.5px;
+	height: 60px;
+	position: absolute;
+	top: -21px;
+	left: 100px;
+}
+.cerca4 {
+	background: white;
+	width: 3.5px;
+	height: 60px;
+	position: absolute;
+	top: -21px;
+	left: 150px;
+}
+.cerca5 {
+	background: white;
+	width: 3.5px;
+	height: 60px;
+	position: absolute;
+	top: -21px;
+	left: 200px;
+}
+.cerca6 {
+	background: white;
+	width: 3.5px;
+	height: 60px;
+	position: absolute;
+	top: -21px;
+	left: 250px;
+}
+.cerca7 {
+	background: white;
+	width: 3.5px;
+	height: 60px;
+	position: absolute;
+	top: -21px;
+	left: 300px;
+}
+.cerca8 {
+	background: white;
+	width: 3.5px;
+	height: 60px;
+	position: absolute;
+	top: -21px;
+	left: 350px;
+}
+.cerca9 {
+	background: white;
+	width: 3.5px;
+	height: 60px;
+	position: absolute;
+	top: -21px;
+	left: 400px;
+}
+.cerca10 {
+	background: white;
+	width: 3.5px;
+	height: 60px;
+	position: absolute;
+	top: -21px;
+	left: 450px;
+}
+.cerca11 {
+	background: white;
+	width: 3.5px;
+	height: 60px;
+	position: absolute;
+	top: -21px;
+	left: 500px;
+}
+.cerca12 {
+	background: white;
+	width: 500px;
+	height: 3.5px;
+	position: absolute;
+	top: 20px;
+}
+.grama {
+	background: #2E8B57;
+	width: 500px;
+	height: 75px;
+	position: absolute;
+	top: 520px;
+}
+.rua_container{
+	background: #696969;
+	width: 1298px;
+	height: 80px;
+	position: relative;
+	top: 420px;
+	display: flex;
+	align-items: center;
+}
+.listra1 {
+	width: 100px;
+	height: 20px;
+	background: #D3D3D3;
+	display: flex;
+	align-items: center;
+}
+.listra2 {
+	width: 100px;
+	height: 20px;
+	background: #D3D3D3;
+	display: flex;
+	align-items: center;
+	position: absolute;
+	left: 200px;
+
+}
+.listra3 {
+	width: 100px;
+	height: 20px;
+	background: #D3D3D3;
+	display: flex;
+	align-items: center;
+	position: absolute;
+	left: 400px;
+}
+.listra4 {
+	width: 100px;
+	height: 20px;
+	background: #D3D3D3;
+	display: flex;
+	align-items: center;
+	position: absolute;
+	left: 600px;
+}
+.listra5 {
+	width: 100px;
+	height: 20px;
+	background: #D3D3D3;
+	display: flex;
+	align-items: center;
+	position: absolute;
+	left: 800px;
+}
+.listra6 {
+	width: 100px;
+	height: 20px;
+	background: #D3D3D3;
+	display: flex;
+	align-items: center;
+	position: absolute;
+	left: 1000px;
+}
+.listra7 {
+	width: 100px;
+	height: 20px;
+	background: #D3D3D3;
+	display: flex;
+	align-items: center;
+	position: absolute;
+	left: 1200px;
+}
+.nuvem {
+	background: white;
+	width: 60px;
+	height: 80px;
+	border-radius: 35%;
+	position: absolute;
+	top: 20px; 
+	left:700px;
+}
+.nuvem2 {
+	background: white;
+	width: 100px;
+	height: 60px;
+	border-radius: 35%;
+	position: absolute;
+	top: 10px; 
+	left:-20px;
+}
+.nuvem3 {
+	background: white;
+	width: 65px;
+	height: 80px;
+	border-radius: 35%;
+	position: absolute;
+	top: 135px; 
+	left:898px;
+}
+.nuvem4 {
+	background: white;
+	width: 100px;
+	height: 60px;
+	border-radius: 35%;
+	position: absolute;
+	top: 13px; 
+	left:-20px;
+}
+.nuvem5 {
+	background: white;
+	width: 60px;
+	height: 80px;
+	border-radius: 35%;
+	position: absolute;
+	top: 20px; 
+	left:1090px;
+}
+.nuvem6 {
+	background: white;
+	width: 100px;
+	height: 60px;
+	border-radius: 35%;
+	position: absolute;
+	top: 10px; 
+	left:-20px;
+}
+.arvore {
+   @keyframes animacao {
+    0% {
+        transform: scale(0.9);
+        opacity: 0;
+    }
+    50% {
+        transform: scale(1.1);
+        opacity: 1;
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+.arvore {
+    animation: animacao 1s infinite;
+}
+.nuvem {
+	transition: all 1s;
+}
+.nuvem:hover {
+	transform: scale(1.5);
+}
+.nuvem3 {
+	transition: all 1s;
+}
+.nuvem3:hover {
+	transform: scale(1.5);
+}
+.nuvem5 {
+	transition: all 1s;
+}
+.nuvem5:hover {
+	transform: scale(1.5);
+}
